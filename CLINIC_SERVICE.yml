@@ -1,16 +1,1 @@
-# these properties will are overridden by properties in local application.yml
-server.port: 8085
-
-pet.clinic.clinic.server.port: 8082
-
-pet.clinic.clinic.eureka:
-  instance:
-     leaseRenewalInterval: 10
-     leaseExperationDurationinSecond: 20
-  client:
-    serviceUrl:
-      defaultZone: http://127.0.0.1:8080/eureka/
-    healthcheck:
-      enabled: true
-    lease:
-      duration: 50
+server.port: 8082
