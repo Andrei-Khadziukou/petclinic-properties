@@ -4,6 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/order_service
     username: pc_admin
+    password: root
   jpa:
     show-sql: true
 liquibase:
