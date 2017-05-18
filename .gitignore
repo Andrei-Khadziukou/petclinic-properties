@@ -1,0 +1,16 @@
+.tmp
+.git
+.settings
+.ideadist
+.gradle
+gradle/**
+gradlew
+gradlew.bat
+build
+**/build
+repo
+
+# IDEA Files
+*.iml
+*.ipr
+*.iws
